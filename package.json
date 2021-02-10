@@ -1,6 +1,6 @@
 {
   "name": "@ocrv/vue-tailwind-modal",
-  "version": "0.0.8",
+  "version": "1.0.0",
   "description": "Vue Tailwind Modal",
   "files": [
     "dist"
@@ -39,10 +39,22 @@
     "vite": "^2.0.0-beta.12"
   },
   "keywords": [
-    "Modal",
-    "Vue",
-    "Tailwind",
-    "CSS"
+    "modal",
+    "modalbox",
+    "modal-box",
+    "tailwind",
+    "css",
+    "design",
+    "ui",
+    "vue",
+    "vue-ui",
+    "vue.js",
+    "vue-component",
+    "component",
+    "components",
+    "uikit",
+    "front-end",
+    "frontend"
   ],
   "repository": {
     "type": "git",
