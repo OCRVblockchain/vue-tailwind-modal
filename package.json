@@ -1,6 +1,6 @@
 {
   "name": "@ocrv/vue-tailwind-modal",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Vue Tailwind Modal",
   "files": [
     "dist"
@@ -11,12 +11,14 @@
     ".": {
       "import": "./dist/vue-tailwind-modal.es.js",
       "require": "./dist/vue-tailwind-modal.umd.js"
-    }
+    },
+    "./styles": "./dist/style.css"
   },
   "scripts": {
     "dev": "vite",
     "test:unit": "vue-cli-service test:unit",
-    "build": "vite build"
+    "build": "vite build",
+    "style": "tailwindcss build src/assets/styles/index.css -o src/assets/styles/tailwind.css"
   },
   "dependencies": {
     "vue": "^3.0.5"
