@@ -1,6 +1,6 @@
 {
   "name": "@ocrv/vue-tailwind-modal",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Vue Tailwind Modal",
   "files": [
     "dist"
@@ -15,6 +15,7 @@
   },
   "scripts": {
     "dev": "vite",
+    "test:unit": "vue-cli-service test:unit",
     "build": "vite build"
   },
   "dependencies": {
@@ -23,9 +24,13 @@
   "devDependencies": {
     "@types/node": "^14.14.21",
     "@vitejs/plugin-vue": "^1.0.4",
+    "@vue/cli-plugin-unit-mocha": "^4.5.11",
+    "@vue/cli-service": "^4.5.11",
     "@vue/compiler-sfc": "^3.0.5",
+    "@vue/test-utils": "^2.0.0-alpha.8",
     "@vuedx/typescript-plugin-vue": "^0.4.1",
     "autoprefixer": "^10.2.1",
+    "chai": "^4.3.0",
     "postcss": "^8.2.4",
     "tailwindcss": "^2.0.2",
     "typescript": "^4.1.3",
