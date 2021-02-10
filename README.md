@@ -19,7 +19,7 @@ npm install --save @ocrv/vue-tailwind-modal
 Импортируйте стили из библиотеки (например, в main.js файле)
 
 ```js
-import '@ocrv/vue-tailwind-tabs/styles'
+import '@ocrv/vue-tailwind-modal/styles'
 ```
 
 ### Глобальная установка
